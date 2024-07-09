@@ -1,0 +1,266 @@
+.interview-settings-container {
+  width: 100%;
+  height: auto
+}
+
+.Interview1 {
+
+  margin-top: 25px;
+  margin-left: 25px;
+  color: #282833;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.2px;
+  text-align: left;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.description1 {
+  margin-left: 27px;
+  margin-top: 8px;
+color: #667085;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16px;
+  font-family: "switzer";
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+}
+
+.line {
+  margin: 20px 0;
+}
+
+.line01{
+  margin-top: 4%;
+}
+
+.line02
+{
+  margin-top: -0.5%;
+}
+
+.line03{
+  margin-top: -0.5%;
+}
+
+.setting {
+
+  margin-bottom: 30px;
+}
+
+.setting-title1 {
+font-family: Switzer;
+  width: auto;
+  height: 26px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 2%;
+  line-height: 26px;
+  color: #282833;
+  margin-left: 2%;
+}
+
+
+.setting-title2 {
+  font-family: Switzer;
+  width: auto;
+  height: 26px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 2%;
+  line-height: 26px;
+  color: #282833;
+  margin-left: 2%;
+}
+
+.setting-title3{
+  font-family: Switzer;
+  width: auto;
+  height: 26px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 2%;
+  line-height: 26px;
+  color: #282833;
+  margin-left: 2%;
+}
+
+.setting-title4{
+  font-family: Switzer;
+  width: auto;
+  height: 26px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 2%;
+  line-height: 26px;
+  color: #282833;
+  margin-left: 2%;
+}
+
+.setting-description {
+
+  width: 387px;
+  height: 63px;
+  margin-top: 0.5%;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  color: #667085;
+  margin-left: 2%;
+}
+
+
+
+
+
+.setting input[type="checkbox"] {
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  margin-right: 8px; 
+}
+
+.setting input[type="checkbox"]:checked {
+  background-color: #FFF; 
+}
+
+.question {
+
+  font-size: 18px;
+  font-family: Switzer;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  color: #282833;
+
+    margin-left: 46%;
+    margin-top: -5%;
+  
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    
+  }
+  
+
+
+.setting input[type="checkbox"] + label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 24px; 
+}
+
+.setting input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 48%; 
+  left: 50%; 
+  width: 75%; 
+  height: 75%; 
+  background-color: #121212;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+}
+
+
+.enabled{
+  width: 226px;
+  height: 13px;
+  gap: 0px;
+  opacity: 0px;
+  color: #282833;    
+
+}
+
+
+.setting label {
+  display: flex;
+  align-items: center;
+}
+
+
+.setting input[type="radio"] {
+  margin-left: 10px;
+}
+
+.setting input[type="radio"] + label {
+  margin-left: 20px;
+}
+
+
+
+.yes input[type="radio"], .no input[type="radio"] {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; 
+  vertical-align: middle;
+  cursor: pointer; 
+  accent-color: black; /* Set the color of the radio button */
+}
+
+@media only screen and (max-width: 480px) {
+.interview-settings-container {
+width: 100%;
+height: auto;
+padding: 20px; /* Add padding for better spacing */
+background-color: #f0f0f0; /* Example background color */
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+
+
+
+.setting-description {
+width: 100%; 
+
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+
+@media only screen and (max-width: 1440px) {
+
+}
+}}
+
+@media (max-width: 1200px) {
+.select123 {
+  width: 30%; /* Adjust as needed */
+}
+}
+
+/* For screens smaller than 992px (e.g., tablets) */
+@media (max-width: 992px) {
+.select123 {
+  width: 40%; /* Adjust as needed */
+}
+}
+
+/* For screens smaller than 768px (e.g., large phones and small tablets) */
+@media (max-width: 768px) {
+.select123 {
+  width: 50%; /* Adjust as needed */
+}
+}
+
